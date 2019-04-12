@@ -63,7 +63,7 @@ from werkzeug.utils import secure_filename
 import activitypub
 import config
 
-import tasks  # noqa: here just for the migration  # FIXME(tsileo): remove me
+# import tasks  # noqa: here just for the migration  # FIXME(tsileo): remove me
 from activitypub import Box
 from activitypub import embed_collection
 from config import USER_AGENT
